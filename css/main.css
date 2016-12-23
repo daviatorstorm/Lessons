@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #333;
+  background: #f7f7f7;
+  font-size: 1em;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 135%;
+}
+
+a {
+  color: #f48b8b;
+  text-decoration: none;
+  transition: all .6s ease;
+  -maz-transition: all .6s ease;
+  -webkit-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+}
+
+a:hover {
+  color: #8b9ff5;
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+}
+
+a:active {
+  color: #8ce4a6;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+hr {
+  display: block;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
+header, footer{
+  background-color: #fff;
+}
+
+header{
+  border-bottom: 2px solid silver;
+  padding: 1%;
+}
+
+.left {
+  float: left;
+}
+
+.right{float:right}
+.clear{clear:both}
+
+::selection {background: #f58b8b; color: #fff}
+::-moz-selection {background: #f58b8b; color: #fff}
