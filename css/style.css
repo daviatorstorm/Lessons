@@ -135,10 +135,12 @@ footer{
   margin-top: 10px;
   padding-bottom: 4%;
 }
-#page-wrap: after{
+
+#page-wrap:after {
   content: "";
   display: block;
 }
+
 footer, #page-wrap:after {height: 10px}
 #page-wrap{
   min-height: 94%;
